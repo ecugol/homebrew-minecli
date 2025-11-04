@@ -5,21 +5,21 @@ class Minecli < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/ecugol/minecli/releases/download/v0.1.0/minecli-aarch64-apple-darwin.tar.xz"
-      sha256 "7020b7c279a781aef1b67039ae267c11bde473da9eb92a219fd30d02845bc62a"
+      sha256 "ee989d071980be374a0ec3e682ac9a83dc32fbce7de2c7adc49b866267313e22"
     end
     if Hardware::CPU.intel?
       url "https://github.com/ecugol/minecli/releases/download/v0.1.0/minecli-x86_64-apple-darwin.tar.xz"
-      sha256 "9e2fd97fd61a8865b8eb5781426d392b22769ff730c8985b68f24236a8d8ca4e"
+      sha256 "843e398d864185866d0a7dc2ffe39ae0a7d7dc9666277f268145bc0e24aaea65"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/ecugol/minecli/releases/download/v0.1.0/minecli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "f1d49698dcf162754f0a6f265c2f98ba3f1d87b27857cc075ef14a059cb279a3"
+      sha256 "84d623bcd13dcc5df55b2e4426ac062cfd2f12ba44d14d04d2807d9ceaaee7d9"
     end
     if Hardware::CPU.intel?
       url "https://github.com/ecugol/minecli/releases/download/v0.1.0/minecli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "58a9d35ec77b440661f289b3b80e256dbe01dc9cccaa3a4b4a74a63ebe932c50"
+      sha256 "4e7c6fd77b6cee802364e2515df3ce9af72f9564b94cbdc1297fc3ff47c5baba"
     end
   end
   license "MIT"
