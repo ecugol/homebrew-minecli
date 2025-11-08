@@ -1,25 +1,25 @@
 class Minecli < Formula
   desc "A beautiful TUI (Terminal User Interface) client for Redmine project management"
   homepage "https://github.com/ecugol/minecli"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ecugol/minecli/releases/download/v0.1.0/minecli-aarch64-apple-darwin.tar.xz"
-      sha256 "ee989d071980be374a0ec3e682ac9a83dc32fbce7de2c7adc49b866267313e22"
+      url "https://github.com/ecugol/minecli/releases/download/v0.1.1/minecli-aarch64-apple-darwin.tar.xz"
+      sha256 "89db4c0573c2f5e3a0a7b7735ab5b9e91a5698e6fb499e6319b903528c1a4a19"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ecugol/minecli/releases/download/v0.1.0/minecli-x86_64-apple-darwin.tar.xz"
-      sha256 "843e398d864185866d0a7dc2ffe39ae0a7d7dc9666277f268145bc0e24aaea65"
+      url "https://github.com/ecugol/minecli/releases/download/v0.1.1/minecli-x86_64-apple-darwin.tar.xz"
+      sha256 "3979e63b168783a2798df040027295a594a93916bfde8eadbd072d4a80bd15a1"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/ecugol/minecli/releases/download/v0.1.0/minecli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "84d623bcd13dcc5df55b2e4426ac062cfd2f12ba44d14d04d2807d9ceaaee7d9"
+      url "https://github.com/ecugol/minecli/releases/download/v0.1.1/minecli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "e5f77b79fb25f479aa7dcd42e186aba755a7395888ffb62f6a44113684a7fdb9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ecugol/minecli/releases/download/v0.1.0/minecli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "4e7c6fd77b6cee802364e2515df3ce9af72f9564b94cbdc1297fc3ff47c5baba"
+      url "https://github.com/ecugol/minecli/releases/download/v0.1.1/minecli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "29800fbd2d8294e570cb135c9071ad6ef1eb17daf2252490b177093ec422c95a"
     end
   end
   license "MIT"
